@@ -1,0 +1,201 @@
+[
+  {
+    "seed": 13,
+    "selection": "nearest",
+    "workers": 3,
+    "bases": 2,
+    "gold": 270,
+    "carried": 0,
+    "invalid": 0,
+    "actions": {
+      "spawn": 2,
+      "move": 1073,
+      "mine": 272,
+      "deposit": 43,
+      "build-base": 1,
+      "pass": 46
+    }
+  },
+  {
+    "seed": 14,
+    "selection": "nearest",
+    "workers": 3,
+    "bases": 1,
+    "gold": 256,
+    "carried": 0,
+    "invalid": 0,
+    "actions": {
+      "spawn": 2,
+      "move": 1110,
+      "mine": 256,
+      "deposit": 39,
+      "pass": 30
+    }
+  },
+  {
+    "seed": 15,
+    "selection": "nearest",
+    "workers": 3,
+    "bases": 1,
+    "gold": 246,
+    "carried": 0,
+    "invalid": 0,
+    "actions": {
+      "spawn": 2,
+      "move": 1111,
+      "mine": 246,
+      "pass": 42,
+      "deposit": 36
+    }
+  },
+  {
+    "seed": 16,
+    "selection": "nearest",
+    "workers": 3,
+    "bases": 2,
+    "gold": 290,
+    "carried": 0,
+    "invalid": 0,
+    "actions": {
+      "spawn": 2,
+      "move": 1081,
+      "mine": 292,
+      "pass": 15,
+      "deposit": 46,
+      "build-base": 1
+    }
+  },
+  {
+    "seed": 17,
+    "selection": "nearest",
+    "workers": 3,
+    "bases": 1,
+    "gold": 245,
+    "carried": 0,
+    "invalid": 0,
+    "actions": {
+      "spawn": 2,
+      "move": 1102,
+      "mine": 247,
+      "deposit": 38,
+      "pass": 48
+    }
+  },
+  {
+    "seed": 18,
+    "selection": "nearest",
+    "workers": 3,
+    "bases": 2,
+    "gold": 267,
+    "carried": 0,
+    "invalid": 0,
+    "actions": {
+      "spawn": 2,
+      "move": 1106,
+      "mine": 269,
+      "deposit": 43,
+      "build-base": 1,
+      "pass": 16
+    }
+  },
+  {
+    "seed": 19,
+    "selection": "nearest",
+    "workers": 3,
+    "bases": 2,
+    "gold": 294,
+    "carried": 0,
+    "invalid": 0,
+    "actions": {
+      "spawn": 2,
+      "move": 1026,
+      "mine": 296,
+      "pass": 68,
+      "deposit": 44,
+      "build-base": 1
+    }
+  },
+  {
+    "seed": 20,
+    "selection": "nearest",
+    "workers": 3,
+    "bases": 1,
+    "gold": 243,
+    "carried": 0,
+    "invalid": 0,
+    "actions": {
+      "spawn": 2,
+      "move": 1110,
+      "mine": 243,
+      "deposit": 34,
+      "pass": 48
+    }
+  },
+  {
+    "seed": 21,
+    "selection": "nearest",
+    "workers": 3,
+    "bases": 2,
+    "gold": 307,
+    "carried": 0,
+    "invalid": 0,
+    "actions": {
+      "spawn": 2,
+      "move": 1020,
+      "mine": 309,
+      "pass": 60,
+      "deposit": 45,
+      "build-base": 1
+    }
+  },
+  {
+    "seed": 22,
+    "selection": "nearest",
+    "workers": 3,
+    "bases": 2,
+    "gold": 318,
+    "carried": 0,
+    "invalid": 0,
+    "actions": {
+      "spawn": 2,
+      "move": 1026,
+      "mine": 320,
+      "deposit": 47,
+      "pass": 41,
+      "build-base": 1
+    }
+  },
+  {
+    "seed": 23,
+    "selection": "nearest",
+    "workers": 3,
+    "bases": 1,
+    "gold": 209,
+    "carried": 0,
+    "invalid": 0,
+    "actions": {
+      "spawn": 2,
+      "move": 1142,
+      "mine": 209,
+      "deposit": 34,
+      "pass": 50
+    }
+  },
+  {
+    "seed": 24,
+    "selection": "nearest",
+    "workers": 3,
+    "bases": 2,
+    "gold": 347,
+    "carried": 0,
+    "invalid": 0,
+    "actions": {
+      "spawn": 2,
+      "move": 1011,
+      "mine": 349,
+      "deposit": 52,
+      "build-base": 1,
+      "pass": 22
+    }
+  }
+]

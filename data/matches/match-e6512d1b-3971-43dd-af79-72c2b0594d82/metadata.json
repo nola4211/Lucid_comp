@@ -1,0 +1,244 @@
+{
+  "matchId": "match-e6512d1b-3971-43dd-af79-72c2b0594d82",
+  "kind": "official-game-action-export",
+  "rulesVersion": "lpc2026 (provided context; export does not include settings)",
+  "teamStrategy": "v3",
+  "strategyAttribution": "version-log-partial",
+  "finalGoldFromScreenshot": 193,
+  "placementFromScreenshot": 2,
+  "firstExportedTurn": 0,
+  "lastExportedTurn": 480,
+  "complete480TurnActionExport": true,
+  "originalSourceSha256": "cc596949a687914b2688be04d48597836c7dadde4b4b98fc9c9c830229ff91ab",
+  "rawExport": "data/matches/match-e6512d1b-3971-43dd-af79-72c2b0594d82/actions.original.json.gz",
+  "actionChunks": [
+    "data/matches/match-e6512d1b-3971-43dd-af79-72c2b0594d82/actions/turns-000-059.json",
+    "data/matches/match-e6512d1b-3971-43dd-af79-72c2b0594d82/actions/turns-060-119.json",
+    "data/matches/match-e6512d1b-3971-43dd-af79-72c2b0594d82/actions/turns-120-179.json",
+    "data/matches/match-e6512d1b-3971-43dd-af79-72c2b0594d82/actions/turns-180-239.json",
+    "data/matches/match-e6512d1b-3971-43dd-af79-72c2b0594d82/actions/turns-240-299.json",
+    "data/matches/match-e6512d1b-3971-43dd-af79-72c2b0594d82/actions/turns-300-359.json",
+    "data/matches/match-e6512d1b-3971-43dd-af79-72c2b0594d82/actions/turns-360-419.json",
+    "data/matches/match-e6512d1b-3971-43dd-af79-72c2b0594d82/actions/turns-420-479.json",
+    "data/matches/match-e6512d1b-3971-43dd-af79-72c2b0594d82/actions/turns-480-480.json"
+  ],
+  "teams": [
+    {
+      "id": "team-2dec9fd5-26b1-4f79-a22d-ccb2a0d7ac59",
+      "displayName": "[BYU] Them bois",
+      "botType": false,
+      "submittedActions": 1437,
+      "actionCounts": {
+        "spawn": 2,
+        "move": 1150,
+        "mine": 193,
+        "pass": 61,
+        "deposit": 31
+      },
+      "workersWithActions": 3,
+      "construction": [
+        {
+          "turn": 1,
+          "entityId": "team-2dec9fd5-26b1-4f79-a22d-ccb2a0d7ac59-unit-1",
+          "type": "spawn"
+        },
+        {
+          "turn": 2,
+          "entityId": "team-2dec9fd5-26b1-4f79-a22d-ccb2a0d7ac59-unit-1",
+          "type": "spawn"
+        }
+      ]
+    },
+    {
+      "id": "bot-8935a25d-db38-4016-ac2c-d125d5765671",
+      "displayName": "Bot 1",
+      "botType": "prospector",
+      "submittedActions": 1437,
+      "actionCounts": {
+        "spawn": 2,
+        "move": 1144,
+        "mine": 206,
+        "pass": 54,
+        "deposit": 30,
+        "build-base": 1
+      },
+      "workersWithActions": 3,
+      "construction": [
+        {
+          "turn": 1,
+          "entityId": "bot-8935a25d-db38-4016-ac2c-d125d5765671-unit-1",
+          "type": "spawn"
+        },
+        {
+          "turn": 2,
+          "entityId": "bot-8935a25d-db38-4016-ac2c-d125d5765671-unit-1",
+          "type": "spawn"
+        },
+        {
+          "turn": 43,
+          "entityId": "bot-8935a25d-db38-4016-ac2c-d125d5765671-unit-1",
+          "type": "build-base"
+        }
+      ]
+    },
+    {
+      "id": "bot-b3c811bd-d061-4074-9792-f5ed0b03737d",
+      "displayName": "Bot 2",
+      "botType": "prospector",
+      "submittedActions": 1437,
+      "actionCounts": {
+        "spawn": 2,
+        "move": 1243,
+        "mine": 145,
+        "deposit": 24,
+        "pass": 22,
+        "build-base": 1
+      },
+      "workersWithActions": 3,
+      "construction": [
+        {
+          "turn": 1,
+          "entityId": "bot-b3c811bd-d061-4074-9792-f5ed0b03737d-unit-1",
+          "type": "spawn"
+        },
+        {
+          "turn": 2,
+          "entityId": "bot-b3c811bd-d061-4074-9792-f5ed0b03737d-unit-1",
+          "type": "spawn"
+        },
+        {
+          "turn": 123,
+          "entityId": "bot-b3c811bd-d061-4074-9792-f5ed0b03737d-unit-1",
+          "type": "build-base"
+        }
+      ]
+    },
+    {
+      "id": "bot-fe6c8c2f-494c-49d9-8207-8275b9685559",
+      "displayName": "Bot 3",
+      "botType": "prospector",
+      "submittedActions": 1437,
+      "actionCounts": {
+        "spawn": 2,
+        "move": 1225,
+        "mine": 148,
+        "deposit": 28,
+        "build-base": 2,
+        "pass": 32
+      },
+      "workersWithActions": 3,
+      "construction": [
+        {
+          "turn": 1,
+          "entityId": "bot-fe6c8c2f-494c-49d9-8207-8275b9685559-unit-1",
+          "type": "spawn"
+        },
+        {
+          "turn": 2,
+          "entityId": "bot-fe6c8c2f-494c-49d9-8207-8275b9685559-unit-1",
+          "type": "spawn"
+        },
+        {
+          "turn": 25,
+          "entityId": "bot-fe6c8c2f-494c-49d9-8207-8275b9685559-unit-1",
+          "type": "build-base"
+        },
+        {
+          "turn": 27,
+          "entityId": "bot-fe6c8c2f-494c-49d9-8207-8275b9685559-unit-1",
+          "type": "build-base"
+        }
+      ]
+    },
+    {
+      "id": "bot-7f52cc2d-83dc-4164-9694-80da50900389",
+      "displayName": "Bot 4",
+      "botType": "prospector",
+      "submittedActions": 1437,
+      "actionCounts": {
+        "spawn": 2,
+        "move": 1133,
+        "mine": 197,
+        "deposit": 30,
+        "build-base": 1,
+        "pass": 74
+      },
+      "workersWithActions": 3,
+      "construction": [
+        {
+          "turn": 1,
+          "entityId": "bot-7f52cc2d-83dc-4164-9694-80da50900389-unit-1",
+          "type": "spawn"
+        },
+        {
+          "turn": 2,
+          "entityId": "bot-7f52cc2d-83dc-4164-9694-80da50900389-unit-1",
+          "type": "spawn"
+        },
+        {
+          "turn": 55,
+          "entityId": "bot-7f52cc2d-83dc-4164-9694-80da50900389-unit-1",
+          "type": "build-base"
+        }
+      ]
+    },
+    {
+      "id": "bot-7d9a544a-31c4-4c9c-bb8b-bd451ea14584",
+      "displayName": "Bot 5",
+      "botType": "prospector",
+      "submittedActions": 1437,
+      "actionCounts": {
+        "spawn": 2,
+        "move": 1259,
+        "pass": 64,
+        "mine": 96,
+        "deposit": 15,
+        "build-base": 1
+      },
+      "workersWithActions": 3,
+      "construction": [
+        {
+          "turn": 1,
+          "entityId": "bot-7d9a544a-31c4-4c9c-bb8b-bd451ea14584-unit-1",
+          "type": "spawn"
+        },
+        {
+          "turn": 2,
+          "entityId": "bot-7d9a544a-31c4-4c9c-bb8b-bd451ea14584-unit-1",
+          "type": "spawn"
+        },
+        {
+          "turn": 217,
+          "entityId": "bot-7d9a544a-31c4-4c9c-bb8b-bd451ea14584-unit-1",
+          "type": "build-base"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Actions are attempts; no positions, bank balances or action outcomes in this export.",
+    "Seed, map settings and strategy source commit are absent.",
+    "Do not compare scores on different maps as a controlled strategy experiment."
+  ],
+  "telemetry": [
+    {
+      "versionArchive": "v3",
+      "recordCount": 190,
+      "firstViewTurn": 0,
+      "lastViewTurn": 189,
+      "finalObservedBank": {
+        "gold": 55,
+        "iron": 4
+      },
+      "chunks": [
+        "data/matches/match-e6512d1b-3971-43dd-af79-72c2b0594d82/telemetry/v3-000.jsonl",
+        "data/matches/match-e6512d1b-3971-43dd-af79-72c2b0594d82/telemetry/v3-001.jsonl",
+        "data/matches/match-e6512d1b-3971-43dd-af79-72c2b0594d82/telemetry/v3-002.jsonl",
+        "data/matches/match-e6512d1b-3971-43dd-af79-72c2b0594d82/telemetry/v3-003.jsonl"
+      ],
+      "rawArchive": "data/telemetry/original/v3.jsonl.gz",
+      "events": {}
+    }
+  ],
+  "scoreboardImage": "data/matches/match-e6512d1b-3971-43dd-af79-72c2b0594d82/scoreboard.png"
+}

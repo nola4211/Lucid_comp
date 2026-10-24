@@ -1,0 +1,15 @@
+{
+  "matchId": "match-a689f485-9c6c-4866-9e01-6aa0bc2360a6",
+  "kind": "partial-terminal-game-log",
+  "teamStrategy": "v1 (inferred; not source-verified)",
+  "strategyAttribution": "inferred",
+  "finalGoldFromScreenshot": null,
+  "placementFromScreenshot": null,
+  "terminalActions": {
+    "path": "data/matches/match-a689f485-9c6c-4866-9e01-6aa0bc2360a6/terminal-actions.sanitized.jsonl",
+    "recordCount": 389,
+    "firstReportedViewTurn": 0,
+    "lastReportedViewTurn": 388,
+    "note": "Reported strategy-view turn, not the acceptedForTurn field of the official action export. Login lines, shell commands and API keys excluded."
+  }
+}

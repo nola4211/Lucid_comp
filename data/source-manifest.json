@@ -1,0 +1,76 @@
+{
+  "createdDate": "2026-10-24",
+  "rawArchives": [
+    {
+      "path": "data/matches/match-8781f333-98de-451d-af32-4d342e4206b4/actions.original.json.gz",
+      "kind": "raw-action-export-gzip",
+      "decompressedSha256": "be508ee36fb8f9409467be38fe46cae3a61b037c96d0cad2c2d4dfdf02371772",
+      "source": "user-shared replay file",
+      "matchId": "match-8781f333-98de-451d-af32-4d342e4206b4"
+    },
+    {
+      "path": "data/matches/match-a64dfc31-5add-4e21-98ec-53459219cce5/actions.original.json.gz",
+      "kind": "raw-action-export-gzip",
+      "decompressedSha256": "7c48247937ea33cf2f38199599fbfbe1ceb42b3e54a9a536c42e6295926f85f2",
+      "source": "user-shared replay file",
+      "matchId": "match-a64dfc31-5add-4e21-98ec-53459219cce5"
+    },
+    {
+      "path": "data/matches/match-62e5b30a-be58-4480-97c3-4e52d542d0d9/actions.original.json.gz",
+      "kind": "raw-action-export-gzip",
+      "decompressedSha256": "531ba7a7722f87c97c1ff85b93681d2bc51fc82ee6492fb88a2e3841dd7e36c8",
+      "source": "user-shared replay file",
+      "matchId": "match-62e5b30a-be58-4480-97c3-4e52d542d0d9"
+    },
+    {
+      "path": "data/matches/match-e6512d1b-3971-43dd-af79-72c2b0594d82/actions.original.json.gz",
+      "kind": "raw-action-export-gzip",
+      "decompressedSha256": "cc596949a687914b2688be04d48597836c7dadde4b4b98fc9c9c830229ff91ab",
+      "source": "user-shared replay file",
+      "matchId": "match-e6512d1b-3971-43dd-af79-72c2b0594d82"
+    },
+    {
+      "path": "data/matches/match-ca31db86-2bf0-4d81-a052-f2d71ac36d18/actions.original.json.gz",
+      "kind": "raw-action-export-gzip",
+      "decompressedSha256": "9602acb69b94c9c3004941382d1ff5a72b8f339faa799cb422888b3bc4850e4b",
+      "source": "user-shared replay file",
+      "matchId": "match-ca31db86-2bf0-4d81-a052-f2d71ac36d18"
+    },
+    {
+      "path": "data/matches/match-994eef88-f785-4100-bbb8-547160294eda/actions.original.json.gz",
+      "kind": "raw-action-export-gzip",
+      "decompressedSha256": "1cb9d32e3a41d99594ed5df456bcb2b2eb7c0fff51c36a5aaa09fb2a534f3b44",
+      "source": "user-shared replay file",
+      "matchId": "match-994eef88-f785-4100-bbb8-547160294eda"
+    },
+    {
+      "path": "data/telemetry/original/v2.jsonl.gz",
+      "kind": "raw-telemetry-gzip",
+      "decompressedSha256": "4f0772ae2d7d5ff8f9ab2cb172c83755af54bc8030012cc4226505bec77c805c",
+      "source": "user-shared bot folder",
+      "strategySnapshot": "v2"
+    },
+    {
+      "path": "data/telemetry/original/v3.jsonl.gz",
+      "kind": "raw-telemetry-gzip",
+      "decompressedSha256": "e263707d077037ee29cd5080578d15133d439c7089fac02b7de53ae752a22e2d",
+      "source": "user-shared bot folder",
+      "strategySnapshot": "v3"
+    },
+    {
+      "path": "data/telemetry/original/v5.jsonl.gz",
+      "kind": "raw-telemetry-gzip",
+      "decompressedSha256": "36b5ea4670bcba511084f9cdf05c6045eb0977fbd3d4412936fdc46e94c552ae",
+      "source": "user-shared bot folder",
+      "strategySnapshot": "v5"
+    }
+  ],
+  "sourceScope": "All game files and experimental artifacts available in this chat and its workspace. Unshared teammates code, unavailable final states, unseen matches and full world replay data are not fabricated.",
+  "excluded": [
+    "Team/API credentials",
+    "Unrelated shell/login history from the pasted terminal transcript",
+    "Screenshots of Terminal, Finder and the chat rather than game results",
+    "Duplicate ZIP distributions; strategy source trees are preserved instead"
+  ],
+  "matchCount": 9
+}

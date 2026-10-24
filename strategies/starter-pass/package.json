@@ -1,0 +1,12 @@
+{
+  "name": "lpc-bot",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node bot_template.js",
+    "prestart": "node -e \"const [major, minor] = process.versions.node.split('.').map(Number); if (major < 22 || (major === 22 && minor < 14)) { console.error('Use Node.js 22.14 or newer.'); process.exit(1); }\""
+  },
+  "engines": {
+    "node": ">=22.14.0"
+  }
+}

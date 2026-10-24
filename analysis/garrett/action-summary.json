@@ -1,0 +1,562 @@
+{
+  "matchId": "match-ca31db86-2bf0-4d81-a052-f2d71ac36d18",
+  "limitations": "Action submissions only; no scores, terrain, positions, resources, inventories or action outcomes. Counts are attempts, not verified output. This BYU strategy belongs to the teammate, not the bot versions developed in this chat.",
+  "teams": [
+    {
+      "team": "[U of U] James",
+      "workers_with_actions": 1,
+      "submitted_actions": 474,
+      "move": 348,
+      "mine": 99,
+      "deposit": 15,
+      "pass": 12,
+      "moves_per_mining_attempt": 3.515151515151515,
+      "mining_share": 0.2088607594936709,
+      "construction": []
+    },
+    {
+      "team": "[USU] Garrett Ermer",
+      "workers_with_actions": 3,
+      "submitted_actions": 1422,
+      "spawn": 2,
+      "move": 942,
+      "mine": 336,
+      "deposit": 50,
+      "pass": 91,
+      "build-base": 1,
+      "moves_per_mining_attempt": 2.8035714285714284,
+      "mining_share": 0.23628691983122363,
+      "construction": [
+        [
+          2,
+          "team-02425bef-baea-4dbb-a862-9055032b1d68-unit-1",
+          "spawn"
+        ],
+        [
+          3,
+          "team-02425bef-baea-4dbb-a862-9055032b1d68-unit-1",
+          "spawn"
+        ],
+        [
+          41,
+          "team-02425bef-baea-4dbb-a862-9055032b1d68-unit-2",
+          "build-base"
+        ]
+      ]
+    },
+    {
+      "team": "[BYU] Claudemaxxers",
+      "workers_with_actions": 2,
+      "submitted_actions": 897,
+      "spawn": 1,
+      "move": 522,
+      "pass": 189,
+      "build-base": 1,
+      "mine": 161,
+      "deposit": 23,
+      "moves_per_mining_attempt": 3.2422360248447206,
+      "mining_share": 0.1794871794871795,
+      "construction": [
+        [
+          2,
+          "team-5d5a83ca-abb3-4aba-b706-1c180846201e-unit-1",
+          "spawn"
+        ],
+        [
+          16,
+          "team-5d5a83ca-abb3-4aba-b706-1c180846201e-unit-1",
+          "build-base"
+        ]
+      ]
+    },
+    {
+      "team": "[BYU] Them bois",
+      "workers_with_actions": 4,
+      "submitted_actions": 1868,
+      "spawn": 3,
+      "move": 1377,
+      "mine": 276,
+      "pass": 158,
+      "deposit": 52,
+      "build-base": 2,
+      "moves_per_mining_attempt": 4.989130434782608,
+      "mining_share": 0.14775160599571735,
+      "construction": [
+        [
+          2,
+          "team-2dec9fd5-26b1-4f79-a22d-ccb2a0d7ac59-unit-1",
+          "spawn"
+        ],
+        [
+          3,
+          "team-2dec9fd5-26b1-4f79-a22d-ccb2a0d7ac59-unit-1",
+          "spawn"
+        ],
+        [
+          26,
+          "team-2dec9fd5-26b1-4f79-a22d-ccb2a0d7ac59-unit-2",
+          "spawn"
+        ],
+        [
+          156,
+          "team-2dec9fd5-26b1-4f79-a22d-ccb2a0d7ac59-unit-4",
+          "build-base"
+        ],
+        [
+          180,
+          "team-2dec9fd5-26b1-4f79-a22d-ccb2a0d7ac59-unit-1",
+          "build-base"
+        ]
+      ]
+    },
+    {
+      "team": "[U of U] Shield",
+      "workers_with_actions": 2,
+      "submitted_actions": 460,
+      "move": 455,
+      "spawn": 1,
+      "mine": 4,
+      "moves_per_mining_attempt": 113.75,
+      "mining_share": 0.008695652173913044,
+      "construction": [
+        [
+          165,
+          "team-a160d829-44f0-45de-87aa-e77fbdd4fa93-unit-1",
+          "spawn"
+        ]
+      ]
+    },
+    {
+      "team": "Bot 6",
+      "workers_with_actions": 3,
+      "submitted_actions": 1437,
+      "spawn": 2,
+      "move": 1123,
+      "mine": 254,
+      "deposit": 37,
+      "build-base": 1,
+      "pass": 20,
+      "moves_per_mining_attempt": 4.421259842519685,
+      "mining_share": 0.1767571329157968,
+      "construction": [
+        [
+          1,
+          "bot-fd6eee57-37c8-4126-ac8b-a80977c39044-unit-1",
+          "spawn"
+        ],
+        [
+          2,
+          "bot-fd6eee57-37c8-4126-ac8b-a80977c39044-unit-1",
+          "spawn"
+        ],
+        [
+          26,
+          "bot-fd6eee57-37c8-4126-ac8b-a80977c39044-unit-1",
+          "build-base"
+        ]
+      ]
+    },
+    {
+      "team": "Bot 7",
+      "workers_with_actions": 3,
+      "submitted_actions": 1437,
+      "spawn": 2,
+      "move": 1221,
+      "mine": 160,
+      "pass": 30,
+      "deposit": 23,
+      "build-base": 1,
+      "moves_per_mining_attempt": 7.63125,
+      "mining_share": 0.11134307585247043,
+      "construction": [
+        [
+          1,
+          "bot-a946f0c8-a3d8-4d18-8d21-08637ca7a2c6-unit-1",
+          "spawn"
+        ],
+        [
+          2,
+          "bot-a946f0c8-a3d8-4d18-8d21-08637ca7a2c6-unit-1",
+          "spawn"
+        ],
+        [
+          27,
+          "bot-a946f0c8-a3d8-4d18-8d21-08637ca7a2c6-unit-1",
+          "build-base"
+        ]
+      ]
+    },
+    {
+      "team": "Bot 8",
+      "workers_with_actions": 3,
+      "submitted_actions": 1437,
+      "spawn": 2,
+      "move": 1289,
+      "mine": 114,
+      "deposit": 21,
+      "pass": 10,
+      "build-base": 1,
+      "moves_per_mining_attempt": 11.307017543859649,
+      "mining_share": 0.07933194154488518,
+      "construction": [
+        [
+          1,
+          "bot-ffb56d9a-d69a-4295-9b1d-f2133e0ff67e-unit-1",
+          "spawn"
+        ],
+        [
+          2,
+          "bot-ffb56d9a-d69a-4295-9b1d-f2133e0ff67e-unit-1",
+          "spawn"
+        ],
+        [
+          49,
+          "bot-ffb56d9a-d69a-4295-9b1d-f2133e0ff67e-unit-1",
+          "build-base"
+        ]
+      ]
+    },
+    {
+      "team": "Bot 9",
+      "workers_with_actions": 3,
+      "submitted_actions": 1437,
+      "spawn": 2,
+      "move": 1288,
+      "mine": 107,
+      "pass": 18,
+      "deposit": 19,
+      "build-base": 3,
+      "moves_per_mining_attempt": 12.037383177570094,
+      "mining_share": 0.0744606819763396,
+      "construction": [
+        [
+          1,
+          "bot-1149f8c3-8393-4f42-8b5a-78fa5cd627b1-unit-1",
+          "spawn"
+        ],
+        [
+          2,
+          "bot-1149f8c3-8393-4f42-8b5a-78fa5cd627b1-unit-1",
+          "spawn"
+        ],
+        [
+          69,
+          "bot-1149f8c3-8393-4f42-8b5a-78fa5cd627b1-unit-1",
+          "build-base"
+        ],
+        [
+          113,
+          "bot-1149f8c3-8393-4f42-8b5a-78fa5cd627b1-unit-1",
+          "build-base"
+        ],
+        [
+          115,
+          "bot-1149f8c3-8393-4f42-8b5a-78fa5cd627b1-unit-1",
+          "build-base"
+        ]
+      ]
+    },
+    {
+      "team": "Bot 10",
+      "workers_with_actions": 3,
+      "submitted_actions": 1437,
+      "spawn": 2,
+      "move": 1020,
+      "mine": 311,
+      "deposit": 47,
+      "build-base": 1,
+      "pass": 56,
+      "moves_per_mining_attempt": 3.279742765273312,
+      "mining_share": 0.2164231036882394,
+      "construction": [
+        [
+          1,
+          "bot-9a6c59f4-df09-4ade-96bd-e2f484fcbd49-unit-1",
+          "spawn"
+        ],
+        [
+          2,
+          "bot-9a6c59f4-df09-4ade-96bd-e2f484fcbd49-unit-1",
+          "spawn"
+        ],
+        [
+          42,
+          "bot-9a6c59f4-df09-4ade-96bd-e2f484fcbd49-unit-1",
+          "build-base"
+        ]
+      ]
+    },
+    {
+      "team": "Bot 11",
+      "workers_with_actions": 3,
+      "submitted_actions": 1437,
+      "spawn": 2,
+      "move": 1317,
+      "mine": 90,
+      "deposit": 15,
+      "build-base": 1,
+      "pass": 12,
+      "moves_per_mining_attempt": 14.633333333333333,
+      "mining_share": 0.06263048016701461,
+      "construction": [
+        [
+          1,
+          "bot-158f6d6a-2149-424b-9f84-d3deced9bcda-unit-1",
+          "spawn"
+        ],
+        [
+          2,
+          "bot-158f6d6a-2149-424b-9f84-d3deced9bcda-unit-1",
+          "spawn"
+        ],
+        [
+          89,
+          "bot-158f6d6a-2149-424b-9f84-d3deced9bcda-unit-1",
+          "build-base"
+        ]
+      ]
+    },
+    {
+      "team": "Bot 12",
+      "workers_with_actions": 3,
+      "submitted_actions": 1437,
+      "spawn": 2,
+      "move": 1055,
+      "mine": 311,
+      "pass": 20,
+      "deposit": 48,
+      "build-base": 1,
+      "moves_per_mining_attempt": 3.392282958199357,
+      "mining_share": 0.2164231036882394,
+      "construction": [
+        [
+          1,
+          "bot-aceee7f1-c934-4976-beee-48cdad61640b-unit-1",
+          "spawn"
+        ],
+        [
+          2,
+          "bot-aceee7f1-c934-4976-beee-48cdad61640b-unit-1",
+          "spawn"
+        ],
+        [
+          62,
+          "bot-aceee7f1-c934-4976-beee-48cdad61640b-unit-1",
+          "build-base"
+        ]
+      ]
+    },
+    {
+      "team": "Bot 13",
+      "workers_with_actions": 3,
+      "submitted_actions": 1437,
+      "spawn": 2,
+      "move": 1159,
+      "mine": 208,
+      "pass": 30,
+      "deposit": 37,
+      "build-base": 1,
+      "moves_per_mining_attempt": 5.572115384615385,
+      "mining_share": 0.14474599860821155,
+      "construction": [
+        [
+          1,
+          "bot-c946043b-7e1b-4e50-a9ff-49b94e96398e-unit-1",
+          "spawn"
+        ],
+        [
+          2,
+          "bot-c946043b-7e1b-4e50-a9ff-49b94e96398e-unit-1",
+          "spawn"
+        ],
+        [
+          42,
+          "bot-c946043b-7e1b-4e50-a9ff-49b94e96398e-unit-1",
+          "build-base"
+        ]
+      ]
+    },
+    {
+      "team": "Bot 14",
+      "workers_with_actions": 3,
+      "submitted_actions": 1437,
+      "spawn": 2,
+      "move": 1005,
+      "mine": 332,
+      "deposit": 49,
+      "pass": 48,
+      "build-base": 1,
+      "moves_per_mining_attempt": 3.0271084337349397,
+      "mining_share": 0.23103688239387613,
+      "construction": [
+        [
+          1,
+          "bot-a864b0ac-be7d-4aeb-a034-ccaed30079a0-unit-1",
+          "spawn"
+        ],
+        [
+          2,
+          "bot-a864b0ac-be7d-4aeb-a034-ccaed30079a0-unit-1",
+          "spawn"
+        ],
+        [
+          77,
+          "bot-a864b0ac-be7d-4aeb-a034-ccaed30079a0-unit-1",
+          "build-base"
+        ]
+      ]
+    },
+    {
+      "team": "Bot 15",
+      "workers_with_actions": 3,
+      "submitted_actions": 1437,
+      "spawn": 2,
+      "move": 1257,
+      "mine": 129,
+      "deposit": 24,
+      "build-base": 1,
+      "pass": 24,
+      "moves_per_mining_attempt": 9.744186046511627,
+      "mining_share": 0.08977035490605428,
+      "construction": [
+        [
+          1,
+          "bot-ad54184a-492c-4412-9034-4a7b8b1ccc5f-unit-1",
+          "spawn"
+        ],
+        [
+          2,
+          "bot-ad54184a-492c-4412-9034-4a7b8b1ccc5f-unit-1",
+          "spawn"
+        ],
+        [
+          53,
+          "bot-ad54184a-492c-4412-9034-4a7b8b1ccc5f-unit-1",
+          "build-base"
+        ]
+      ]
+    },
+    {
+      "team": "Bot 16",
+      "workers_with_actions": 3,
+      "submitted_actions": 1437,
+      "spawn": 2,
+      "move": 1054,
+      "mine": 301,
+      "deposit": 49,
+      "build-base": 1,
+      "pass": 30,
+      "moves_per_mining_attempt": 3.5016611295681064,
+      "mining_share": 0.20946416144746,
+      "construction": [
+        [
+          1,
+          "bot-2eb575f3-540b-4fd0-85d2-12aafbd057cd-unit-1",
+          "spawn"
+        ],
+        [
+          2,
+          "bot-2eb575f3-540b-4fd0-85d2-12aafbd057cd-unit-1",
+          "spawn"
+        ],
+        [
+          48,
+          "bot-2eb575f3-540b-4fd0-85d2-12aafbd057cd-unit-1",
+          "build-base"
+        ]
+      ]
+    }
+  ],
+  "workers": [
+    {
+      "team": "[USU] Garrett Ermer",
+      "worker": "team-02425bef-baea-4dbb-a862-9055032b1d68-unit-1",
+      "first_turn": 2,
+      "last_turn": 480,
+      "spawn": 2,
+      "move": 336,
+      "mine": 94,
+      "deposit": 15,
+      "pass": 28,
+      "last_deposit": 462,
+      "mine_attempts_after_last_deposit": 1
+    },
+    {
+      "team": "[USU] Garrett Ermer",
+      "worker": "team-02425bef-baea-4dbb-a862-9055032b1d68-unit-2",
+      "first_turn": 3,
+      "last_turn": 480,
+      "move": 281,
+      "mine": 137,
+      "deposit": 19,
+      "pass": 36,
+      "build-base": 1,
+      "last_deposit": 441,
+      "mine_attempts_after_last_deposit": 1
+    },
+    {
+      "team": "[USU] Garrett Ermer",
+      "worker": "team-02425bef-baea-4dbb-a862-9055032b1d68-unit-3",
+      "first_turn": 4,
+      "last_turn": 480,
+      "move": 325,
+      "mine": 105,
+      "deposit": 16,
+      "pass": 27,
+      "last_deposit": 465,
+      "mine_attempts_after_last_deposit": 0
+    },
+    {
+      "team": "[BYU] Them bois",
+      "worker": "team-2dec9fd5-26b1-4f79-a22d-ccb2a0d7ac59-unit-1",
+      "first_turn": 2,
+      "last_turn": 480,
+      "spawn": 2,
+      "move": 340,
+      "mine": 95,
+      "deposit": 18,
+      "pass": 18,
+      "build-base": 1,
+      "last_deposit": 465,
+      "mine_attempts_after_last_deposit": 0
+    },
+    {
+      "team": "[BYU] Them bois",
+      "worker": "team-2dec9fd5-26b1-4f79-a22d-ccb2a0d7ac59-unit-2",
+      "first_turn": 3,
+      "last_turn": 480,
+      "move": 316,
+      "mine": 79,
+      "pass": 64,
+      "deposit": 13,
+      "spawn": 1,
+      "last_deposit": 478,
+      "mine_attempts_after_last_deposit": 0
+    },
+    {
+      "team": "[BYU] Them bois",
+      "worker": "team-2dec9fd5-26b1-4f79-a22d-ccb2a0d7ac59-unit-3",
+      "first_turn": 4,
+      "last_turn": 480,
+      "move": 367,
+      "mine": 64,
+      "pass": 27,
+      "deposit": 14,
+      "last_deposit": 463,
+      "mine_attempts_after_last_deposit": 0
+    },
+    {
+      "team": "[BYU] Them bois",
+      "worker": "team-2dec9fd5-26b1-4f79-a22d-ccb2a0d7ac59-unit-4",
+      "first_turn": 27,
+      "last_turn": 480,
+      "move": 354,
+      "mine": 38,
+      "deposit": 7,
+      "pass": 49,
+      "build-base": 1,
+      "last_deposit": 462,
+      "mine_attempts_after_last_deposit": 0
+    }
+  ]
+}

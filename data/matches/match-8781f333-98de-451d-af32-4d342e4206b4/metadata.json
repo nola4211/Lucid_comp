@@ -1,0 +1,87 @@
+{
+  "matchId": "match-8781f333-98de-451d-af32-4d342e4206b4",
+  "kind": "official-game-action-export",
+  "rulesVersion": "lpc2026 (provided context; export does not include settings)",
+  "teamStrategy": "starter-pass",
+  "strategyAttribution": "confirmed",
+  "finalGoldFromScreenshot": null,
+  "placementFromScreenshot": null,
+  "firstExportedTurn": 0,
+  "lastExportedTurn": 480,
+  "complete480TurnActionExport": true,
+  "originalSourceSha256": "be508ee36fb8f9409467be38fe46cae3a61b037c96d0cad2c2d4dfdf02371772",
+  "rawExport": "data/matches/match-8781f333-98de-451d-af32-4d342e4206b4/actions.original.json.gz",
+  "actionChunks": [
+    "data/matches/match-8781f333-98de-451d-af32-4d342e4206b4/actions/turns-000-059.json",
+    "data/matches/match-8781f333-98de-451d-af32-4d342e4206b4/actions/turns-060-119.json",
+    "data/matches/match-8781f333-98de-451d-af32-4d342e4206b4/actions/turns-120-179.json",
+    "data/matches/match-8781f333-98de-451d-af32-4d342e4206b4/actions/turns-180-239.json",
+    "data/matches/match-8781f333-98de-451d-af32-4d342e4206b4/actions/turns-240-299.json",
+    "data/matches/match-8781f333-98de-451d-af32-4d342e4206b4/actions/turns-300-359.json",
+    "data/matches/match-8781f333-98de-451d-af32-4d342e4206b4/actions/turns-360-419.json",
+    "data/matches/match-8781f333-98de-451d-af32-4d342e4206b4/actions/turns-420-479.json",
+    "data/matches/match-8781f333-98de-451d-af32-4d342e4206b4/actions/turns-480-480.json"
+  ],
+  "teams": [
+    {
+      "id": "team-2dec9fd5-26b1-4f79-a22d-ccb2a0d7ac59",
+      "displayName": "[BYU] Them bois",
+      "botType": false,
+      "submittedActions": 480,
+      "actionCounts": {
+        "pass": 480
+      },
+      "workersWithActions": 1,
+      "construction": []
+    },
+    {
+      "id": "bot-92e7b101-ea7c-4afd-99d8-9cafe43b6064",
+      "displayName": "Bot 1",
+      "botType": "greed",
+      "submittedActions": 480,
+      "actionCounts": {
+        "move": 463,
+        "mine": 16,
+        "deposit": 1
+      },
+      "workersWithActions": 1,
+      "construction": []
+    },
+    {
+      "id": "bot-d0e66aa0-372c-4259-841a-c2bf70524825",
+      "displayName": "Bot 2",
+      "botType": "greed",
+      "submittedActions": 480,
+      "actionCounts": {
+        "move": 470,
+        "mine": 9,
+        "deposit": 1
+      },
+      "workersWithActions": 1,
+      "construction": []
+    },
+    {
+      "id": "bot-34082adc-2bbd-44dc-8a89-03bca0503587",
+      "displayName": "Bot 3",
+      "botType": "greed",
+      "submittedActions": 480,
+      "actionCounts": {
+        "move": 480
+      },
+      "workersWithActions": 1,
+      "construction": []
+    }
+  ],
+  "limitations": [
+    "Actions are attempts; no positions, bank balances or action outcomes in this export.",
+    "Seed, map settings and strategy source commit are absent.",
+    "Do not compare scores on different maps as a controlled strategy experiment."
+  ],
+  "terminalActions": {
+    "path": "data/matches/match-8781f333-98de-451d-af32-4d342e4206b4/terminal-actions.sanitized.jsonl",
+    "recordCount": 480,
+    "firstReportedViewTurn": 0,
+    "lastReportedViewTurn": 479,
+    "note": "Reported strategy-view turn, not the acceptedForTurn field of the official action export. Login lines, shell commands and API keys excluded."
+  }
+}

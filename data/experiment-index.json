@@ -1,0 +1,147 @@
+[
+  {
+    "id": "E01",
+    "name": "Original worker-count/selection test",
+    "model": "20x20 solo",
+    "files": [
+      "data/experiments/original-results/simulation-results.json"
+    ],
+    "variants": [
+      "rate: workers 1,2,3",
+      "nearest: workers 3"
+    ],
+    "limitations": "Target selection and partial return changed together."
+  },
+  {
+    "id": "E02",
+    "name": "On-site miner priority",
+    "model": "20x20 solo",
+    "files": [
+      "data/experiments/original-results/simulation-results-v2.json"
+    ],
+    "variants": [
+      "rate: workers 1,2,3",
+      "nearest: workers 3"
+    ],
+    "limitations": "Compare the nearest rows with E01; exact historical bytes not captured."
+  },
+  {
+    "id": "E03",
+    "name": "One additional base",
+    "model": "30x30 uniform solo",
+    "files": [
+      "data/experiments/original-results/base-test-v2.json",
+      "data/experiments/original-results/base-test-v3.json"
+    ],
+    "variants": [
+      "V2",
+      "V3"
+    ],
+    "limitations": "Iron added; no opponents, no center."
+  },
+  {
+    "id": "E04",
+    "name": "Coordination tuning",
+    "model": "30x30 uniform solo",
+    "files": [
+      "data/experiments/original-results/base-test-v3.json",
+      "data/experiments/original-results/coordination-ore.json",
+      "data/experiments/original-results/coordination-exploration.json",
+      "data/experiments/original-results/coordination-both.json"
+    ],
+    "variants": [
+      "ore only",
+      "exploration only",
+      "both"
+    ],
+    "limitations": "Uses E03 baseline rows; combined variant had one invalid action before later guard."
+  },
+  {
+    "id": "E05",
+    "name": "Coordination holdout",
+    "model": "30x30 uniform solo",
+    "files": [
+      "data/experiments/original-results/coordination-holdout-v3.json",
+      "data/experiments/original-results/coordination-holdout-v4.json"
+    ],
+    "variants": [
+      "V3",
+      "V4"
+    ],
+    "limitations": "Fresh seeds 13\u201324; V4 did slightly worse here."
+  },
+  {
+    "id": "E06",
+    "name": "Reactive V5",
+    "model": "30x30 uniform solo",
+    "files": [
+      "data/experiments/original-results/reactive-initial.json",
+      "data/experiments/original-results/reactive-holdout.json",
+      "data/experiments/original-results/coordination-ore.json",
+      "data/experiments/original-results/coordination-holdout-v4.json"
+    ],
+    "variants": [
+      "V4",
+      "V5"
+    ],
+    "limitations": "Reuses V4 results; no enemies to validate competition response."
+  },
+  {
+    "id": "E07",
+    "name": "V6 route-priced funding",
+    "model": "30x30 uniform solo",
+    "files": [
+      "data/experiments/original-results/reactive-initial.json",
+      "data/experiments/original-results/reactive-holdout.json",
+      "data/experiments/original-results/v6-initial.json",
+      "data/experiments/original-results/v6-holdout.json"
+    ],
+    "variants": [
+      "V5",
+      "V6"
+    ],
+    "limitations": "Reuses E06 V5 rows; 24 paired seeds."
+  },
+  {
+    "id": "E08",
+    "name": "Rich-center initial and exploration rejection",
+    "model": "30x30 rich-center solo",
+    "files": [
+      "data/experiments/original-results/v6-rich-baseline.json",
+      "data/experiments/original-results/v6-rich-funding.json",
+      "data/experiments/original-results/v6-rich-combined.json"
+    ],
+    "variants": [
+      "V5",
+      "V6 funding",
+      "V6 funding plus center exploration"
+    ],
+    "limitations": "Different model/order from older uniform engine; center option disabled."
+  },
+  {
+    "id": "E09",
+    "name": "Rich-center holdout",
+    "model": "30x30 rich-center solo",
+    "files": [
+      "data/experiments/original-results/v6-rich-holdout-baseline.json",
+      "data/experiments/original-results/v6-rich-holdout-candidate.json"
+    ],
+    "variants": [
+      "V5",
+      "V6 funding"
+    ],
+    "limitations": "Fresh seeds 13\u201324."
+  },
+  {
+    "id": "S01",
+    "name": "Passive V6 observation review",
+    "model": "not a game simulation",
+    "files": [
+      "data/experiments/original-results/v6-shadow-review.json"
+    ],
+    "variants": [
+      "V6 decisions on historical V5 observations"
+    ],
+    "limitations": "Actions not executed; no counterfactual score; old log lacks enemy worker positions."
+  }
+]

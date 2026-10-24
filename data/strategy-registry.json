@@ -1,0 +1,56 @@
+[
+  {
+    "id": "starter-pass",
+    "path": "strategies/starter-pass",
+    "status": "original-tutorial-baseline",
+    "note": "First shared replay submitted pass on every turn."
+  },
+  {
+    "id": "v1",
+    "path": "strategies/v1",
+    "entry": "bot_template.js",
+    "sourceSha256": "0dd3536c4a47bb7f3e01398af1dea67383f6a60b2f2846cb7dcdebe1a7be70c3",
+    "status": "historical-baseline",
+    "note": "Saved snapshot. Historical measurements may precede later diagnostics or small fixes; exact source commit was not captured for old trials."
+  },
+  {
+    "id": "v2",
+    "path": "strategies/v2",
+    "entry": "bot_template.js",
+    "sourceSha256": "415d2ec0dca3c4dcac74954507c403c576c418ad19eaf8c1f7624d0ad3605e09",
+    "status": "historical-tested",
+    "note": "Saved snapshot. Historical measurements may precede later diagnostics or small fixes; exact source commit was not captured for old trials."
+  },
+  {
+    "id": "v3",
+    "path": "strategies/v3",
+    "entry": "bot_template.js",
+    "sourceSha256": "16b1c65ca77d0e50e1c6100d693d6cb0f84d94ccf93853cb735efecc4f010d2b",
+    "status": "historical-tested",
+    "note": "Saved snapshot. Historical measurements may precede later diagnostics or small fixes; exact source commit was not captured for old trials."
+  },
+  {
+    "id": "v4",
+    "path": "strategies/v4",
+    "entry": "bot_template.js",
+    "sourceSha256": "635ab21baf31ac087b20cd6b82adeeac2efbcdb7aab2d9eb5989b2ed62bbd2fa",
+    "status": "experimental-mixed-results",
+    "note": "Saved snapshot. Historical measurements may precede later diagnostics or small fixes; exact source commit was not captured for old trials."
+  },
+  {
+    "id": "v5",
+    "path": "strategies/v5",
+    "entry": "bot_template.js",
+    "sourceSha256": "942b6ae705560d3791ca8b22352301318146ce884af9d5b297b93e450c081bd4",
+    "status": "official-match-winning-baseline",
+    "note": "Saved snapshot. Historical measurements may precede later diagnostics or small fixes; exact source commit was not captured for old trials."
+  },
+  {
+    "id": "v6",
+    "path": "strategies/v6",
+    "entry": "bot_template.js",
+    "sourceSha256": "565159d61049eea632e1834311d5bf71160a515d48cddbb3c2ff30ec75e1a961",
+    "status": "latest-candidate-official-match-not-yet-provided",
+    "note": "Saved snapshot. Historical measurements may precede later diagnostics or small fixes; exact source commit was not captured for old trials."
+  }
+]

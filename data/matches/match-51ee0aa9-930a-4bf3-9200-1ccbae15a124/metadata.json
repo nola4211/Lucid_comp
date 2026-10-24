@@ -1,0 +1,26 @@
+{
+  "matchId": "match-51ee0aa9-930a-4bf3-9200-1ccbae15a124",
+  "kind": "partial-practice-telemetry",
+  "teamStrategy": "v2",
+  "strategyAttribution": "version-log",
+  "finalGoldFromScreenshot": null,
+  "placementFromScreenshot": null,
+  "telemetry": [
+    {
+      "versionArchive": "v2",
+      "recordCount": 89,
+      "firstViewTurn": 0,
+      "lastViewTurn": 88,
+      "finalObservedBank": {
+        "gold": 44,
+        "iron": 4
+      },
+      "chunks": [
+        "data/matches/match-51ee0aa9-930a-4bf3-9200-1ccbae15a124/telemetry/v2-000.jsonl",
+        "data/matches/match-51ee0aa9-930a-4bf3-9200-1ccbae15a124/telemetry/v2-001.jsonl"
+      ],
+      "rawArchive": "data/telemetry/original/v2.jsonl.gz",
+      "events": {}
+    }
+  ]
+}

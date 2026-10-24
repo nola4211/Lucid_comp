@@ -1,0 +1,6 @@
+{
+  "note": "Passive decision replay of V5 observations and worker states. V6 actions were NOT executed; this cannot predict a counterfactual score. Enemy workers are omitted because the old log did not save their positions.",
+  "firstPlans": [],
+  "turnsWithPlans": 0,
+  "turnsWithDifferentActions": 3
+}
